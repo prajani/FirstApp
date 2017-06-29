@@ -1,0 +1,19 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/LL"
+    android:orientation="vertical"
+
+
+    android:background="#a2e94c"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.28" />
+
+</LinearLayout>
